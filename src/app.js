@@ -1,6 +1,4 @@
 import '../styles/index.css'
-import Experience from './Experience'
+import Experience from './Experience/Experience.js'
 
-new Experience({
-  domElement: document.getElementById('experience'),
-})
+const experience = new Experience(document.querySelector('canvas.webgl'))
